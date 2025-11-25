@@ -10,7 +10,7 @@
 
 ### 🌐 **[Live Demo](https://pet-adoption-animal-welfare.netlify.app/)** 🌐
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://pet-adoption-animal-welfare.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea492774-0947-439e-a5d5-23999367cfd0/deploy-status)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
 
 *A beautiful and responsive website dedicated to promoting pet adoption and animal welfare awareness.*
 
