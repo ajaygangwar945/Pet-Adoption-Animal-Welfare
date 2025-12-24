@@ -16,6 +16,7 @@
 
 </div>
 
+
 ---
 
 ## 📖 About The Project
@@ -37,6 +38,19 @@ Welcome to the **Pet Adoption & Animal Welfare** platform! This website is desig
 ## 🚀 Live Website
 The project is fully deployed and accessible online.  
 [![Live](https://img.shields.io/badge/Live-Visit%20Site-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](images/home.png)
+
+### 📖 About Section
+![About](images/about.png)
+
+### 📬 Contact Form
+![Contact](images/contact.png)
 
 ---
 
