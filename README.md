@@ -58,11 +58,11 @@ The project is fully deployed and accessible online.
 
 | Technology | Purpose |
 |------------|---------|
-| ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) | Structure & Content |
-| ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white) | Styling & Animations |
-| ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | Interactivity & Validation |
-| ![Swiper.js](https://img.shields.io/badge/-Swiper.js-6332F6?style=flat&logo=swiper&logoColor=white) | Image Gallery Slider |
-| ![Font Awesome](https://img.shields.io/badge/-Font_Awesome-339AF0?style=flat&logo=fontawesome&logoColor=white) | Icons |
+| ![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Structure & Content |
+| ![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Styling & Animations |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-Logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Interactivity & Validation |
+| ![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery-6332F6?style=for-the-badge&logo=swiper&logoColor=white) | Image Gallery Slider |
+| ![Font%20Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) | Icons |
 
 ---
 
@@ -210,6 +210,8 @@ This project is open source and available under the [MIT License](LICENSE).
 **Live Website:**  
 [![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
 *Check out the deployed project.*
+
+
 
 ---
 
