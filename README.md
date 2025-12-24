@@ -35,8 +35,8 @@ Welcome to the **Pet Adoption & Animal Welfare** platform! This website is desig
 ---
 
 ## 🚀 Live Website
-
-**Visit the live website:** [https://pet-adoption-animal-welfare.netlify.app/](https://pet-adoption-animal-welfare.netlify.app/)
+The project is fully deployed and accessible online.  
+[![Live](https://img.shields.io/badge/Live-Visit%20Site-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)
 
 ---
 
@@ -184,21 +184,34 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
+
 ## 👨‍💻 Author
 
-**Your Name**
+**Ajay Gangwar**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Website: [https://pet-adoption-animal-welfare.netlify.app/](https://pet-adoption-animal-welfare.netlify.app/)
+**GitHub:**  
+[![GitHub Profile](https://img.shields.io/badge/GitHub-@ajaygangwar945-black?style=for-the-badge&logo=github)](https://github.com/ajaygangwar945)  
+*View my GitHub profile and projects.*
+
+**Live Website:**  
+[![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
+*Check out the deployed project.*
 
 ---
 
 ## 🙏 Acknowledgments
 
-- [Font Awesome](https://fontawesome.com/) for icons
-- [Swiper.js](https://swiperjs.com/) for the gallery slider
-- [Google Fonts](https://fonts.google.com/) for Roboto font
-- [Netlify](https://www.netlify.com/) for free hosting
+- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-blue?style=flat-square&logo=fontawesome&logoColor=white)](https://fontawesome.com/)  
+  *Used for icons across the website.*
+
+- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=flat-square&logo=swiper&logoColor=white)](https://swiperjs.com/)  
+  *Used for the interactive image gallery slider.*
+
+- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-green?style=flat-square&logo=googlefonts&logoColor=white)](https://fonts.google.com/)  
+  *Used for clean and modern typography.*
+
+- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)  
+  *Used for free hosting and deployment.*
 
 ---
 
