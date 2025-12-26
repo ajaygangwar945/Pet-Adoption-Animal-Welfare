@@ -10,7 +10,8 @@
 
 ### 🌐 **[Live Demo](https://pet-adoption-animal-welfare.netlify.app/)** 🌐
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ea492774-0947-439e-a5d5-23999367cfd0/deploy-status)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
+[![Netlify](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
+
 
 *A beautiful and responsive website dedicated to promoting pet adoption and animal welfare awareness.*
 
@@ -21,7 +22,7 @@
 
 ## 📖 About The Project
 
-Welcome to the **Pet Adoption & Animal Welfare** platform! This website is designed to connect loving homes with deserving pets while promoting responsible pet ownership and animal welfare education.
+<p align="justify">Welcome to the <b>Pet Adoption & Animal Welfare</b> platform! This website is designed to connect loving homes with deserving pets while promoting responsible pet ownership and animal welfare education.</p>
 
 ### ✨ Key Features
 
@@ -194,7 +195,7 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
@@ -203,31 +204,23 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Ajay Gangwar**
 
-**GitHub:**  
-[![GitHub Profile](https://img.shields.io/badge/GitHub-@ajaygangwar945-black?style=for-the-badge&logo=github)](https://github.com/ajaygangwar945)  
-*View my GitHub profile and projects.*
+- [![GitHub Profile](https://img.shields.io/badge/GitHub-@ajaygangwar945-black?style=for-the-badge&logo=github)](https://github.com/ajaygangwar945)  
 
-**Live Website:**  
-[![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
-*Check out the deployed project.*
-
+- [![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
 
 
 ---
 
 ## 🙏 Acknowledgments
 
-- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-blue?style=flat-square&logo=fontawesome&logoColor=white)](https://fontawesome.com/)  
-  *Used for icons across the website.*
+- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
 
-- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=flat-square&logo=swiper&logoColor=white)](https://swiperjs.com/)  
-  *Used for the interactive image gallery slider.*
+- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=for-the-badge&logo=swiper&logoColor=white)](https://swiperjs.com/)
 
-- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-green?style=flat-square&logo=googlefonts&logoColor=white)](https://fonts.google.com/)  
-  *Used for clean and modern typography.*
+- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/)
 
-- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)  
-  *Used for free hosting and deployment.*
+- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
+
 
 ---
 
