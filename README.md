@@ -195,7 +195,7 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License.
 
 ---
 
