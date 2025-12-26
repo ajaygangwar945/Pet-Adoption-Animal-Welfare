@@ -1,4 +1,4 @@
-# 🐾 Pet Adoption & Animal Welfare
+<h1 align="center"> 🐾 Pet Adoption & Animal Welfare</h1>
 
 <div align="center">
 
