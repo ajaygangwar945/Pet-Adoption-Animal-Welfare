@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # 🐾 Pet Adoption & Animal Welfare
-=======
-<h1 align="center"> 🐾 Pet Adoption & Animal Welfare</h1>
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
 
 <div align="center">
 
@@ -14,27 +10,17 @@
 
 ### 🌐 **[Live Demo](https://pet-adoption-animal-welfare.netlify.app/)** 🌐
 
-<<<<<<< HEAD
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ea492774-0947-439e-a5d5-23999367cfd0/deploy-status)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
-=======
-[![Netlify](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
-
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
 
 *A beautiful and responsive website dedicated to promoting pet adoption and animal welfare awareness.*
 
 </div>
 
-
 ---
 
 ## 📖 About The Project
 
-<<<<<<< HEAD
 Welcome to the **Pet Adoption & Animal Welfare** platform! This website is designed to connect loving homes with deserving pets while promoting responsible pet ownership and animal welfare education.
-=======
-<p align="justify">Welcome to the <b>Pet Adoption & Animal Welfare</b> platform! This website is designed to connect loving homes with deserving pets while promoting responsible pet ownership and animal welfare education.</p>
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
 
 ### ✨ Key Features
 
@@ -49,6 +35,7 @@ Welcome to the **Pet Adoption & Animal Welfare** platform! This website is desig
 ---
 
 ## 🚀 Live Website
+
 The project is fully deployed and accessible online.  
 [![Live](https://img.shields.io/badge/Live-Visit%20Site-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)
 
@@ -57,12 +44,15 @@ The project is fully deployed and accessible online.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
+
 ![Home Page](images/home.png)
 
 ### 📖 About Section
+
 ![About](images/about.png)
 
 ### 📬 Contact Form
+
 ![Contact](images/contact.png)
 
 ---
@@ -104,36 +94,43 @@ Pet Adoption & Animal Welfare/
 ## 🎨 Features Breakdown
 
 ### 🏡 Home Section
+
 - Eye-catching hero section with background image
 - Clear call-to-action button
 - Smooth wave animation at the bottom
 
 ### 📋 About Section
+
 - Mission statement
 - Decorative text styling
 - Responsive image layout
 
 ### 🖼️ Gallery
+
 - Interactive Swiper.js slider
 - Navigation controls
 - Responsive grid layout
 
 ### 🐾 Animal Welfare
+
 - Grid of animal cards
 - Hover effects with overlay
 - "See details" buttons for each animal
 
 ### 🏆 Adopt Now
+
 - Available pets showcase
 - Pet information cards
 - Unique card styling with border-radius animations
 
 ### 📬 Contact Form
+
 - Form validation
 - Input fields for name, email, number, subject, and message
 - Submit confirmation
 
 ### 🔐 Login Form
+
 - Dropdown login form
 - Username and password fields
 - Remember me checkbox
@@ -150,13 +147,15 @@ Pet Adoption & Animal Welfare/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/YOUR_USERNAME/pet-adoption-animal-welfare.git
+   git clone https://github.com/ajaygangwar945/Pet-Adoption-Animal-Welfare.git
    ```
 
 2. **Navigate to the project directory**
+
    ```bash
-   cd pet-adoption-animal-welfare
+   cd Pet-Adoption-Animal-Welfare
    ```
 
 3. **Open in browser**
@@ -168,17 +167,6 @@ Pet Adoption & Animal Welfare/
 ## 🌐 Deployment
 
 This project is deployed on **Netlify** for free hosting with continuous deployment.
-
-### Deploy Your Own
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy)
-
-**Steps:**
-1. Fork this repository
-2. Sign up on [Netlify](https://www.netlify.com/)
-3. Connect your GitHub repository
-4. Deploy with default settings
-5. Your site will be live! 🎉
 
 ---
 
@@ -207,20 +195,14 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-<<<<<<< HEAD
 This project is open source and available under the [MIT License](LICENSE).
-=======
-This project is licensed under the MIT License.
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
 
 ---
-
 
 ## 👨‍💻 Author
 
 **Ajay Gangwar**
 
-<<<<<<< HEAD
 **GitHub:**  
 [![GitHub Profile](https://img.shields.io/badge/GitHub-@ajaygangwar945-black?style=for-the-badge&logo=github)](https://github.com/ajaygangwar945)  
 *View my GitHub profile and projects.*
@@ -229,18 +211,10 @@ This project is licensed under the MIT License.
 [![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
 *Check out the deployed project.*
 
-=======
-- [![GitHub Profile](https://img.shields.io/badge/GitHub-@ajaygangwar945-black?style=for-the-badge&logo=github)](https://github.com/ajaygangwar945)  
-
-- [![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
-
-
 ---
 
 ## 🙏 Acknowledgments
 
-<<<<<<< HEAD
 - [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-blue?style=flat-square&logo=fontawesome&logoColor=white)](https://fontawesome.com/)  
   *Used for icons across the website.*
 
@@ -252,22 +226,12 @@ This project is licensed under the MIT License.
 
 - [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)  
   *Used for free hosting and deployment.*
-=======
-- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
-
-- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=for-the-badge&logo=swiper&logoColor=white)](https://swiperjs.com/)
-
-- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/)
-
-- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
-
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repository if you found it helpful!
+### ⭐ Star this repository if you found it helpful
 
 **Made with ❤️ for animals and their welfare**
 
