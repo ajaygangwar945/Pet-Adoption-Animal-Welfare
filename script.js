@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Firebase Configuration
 const firebaseConfig = {
     apiKey: "SCRUBBED_API_KEY",
@@ -227,7 +226,6 @@ if (contactForm) {
                 timestamp: firebase.firestore.FieldValue.serverTimestamp()
             });
 
-            // Silent success - form resets and button reverts
             contactForm.reset();
         } catch (error) {
             console.error("Error saving message:", error);
@@ -266,71 +264,3 @@ auth.onAuthStateChanged((user) => {
         authRequiredSections.forEach(section => section.style.display = 'none');
     }
 });
-
-// Legacy functions
-// Keep for reference or backward compatibility if needed
-window.showsubscribe = () => {
-    alert("Thanks for Subscribing");
-};
-=======
-let login = document.querySelector(".login-form");
-
-document.querySelector("#login-btn").onclick = () => {
-    login.classList.toggle('active');
-    navbar.classList.remove('active');
-}
-
-let navbar = document.querySelector(".header .navbar");
-
-document.querySelector('#menu-btn').onclick = () => {
-    login.classList.remove('active');
-    navbar.classList.toggle('active');
-}
-
-window.onscroll = () => {
-    login.classList.remove('active');
-    navbar.classList.remove('active');
-}
-
-var swiper = new Swiper(".gallery-slider", {
-    grabCursor: true,
-    loop: true,
-    centeredSlides: true,
-    spaceBetween: 20,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        700: {
-            slidesPerView: 2,
-        },
-    }
-})
-
-function showAlert() {
-    const username = document.getElementById('username').value;
-    const password = document.getElementById('password').value;
-
-    if (!username || !password) {
-        alert('Please fill in both username and password fields.');
-    } else {
-        // Security: Do not echo passwords back to the user
-        const confirmation = confirm(`Are you sure you want to submit?\nUsername: ${username}`);
-
-        if (confirmation) {
-            const userInput = prompt('Please enter any additional information:');
-            alert(`Submission successful!\nAdditional Information: ${userInput || 'None'}`);
-        } else {
-            alert('Submission canceled.');
-        }
-    }
-}
-
-function showsubscribe() {
-    alert("Thanks for Subscribing");
-}
->>>>>>> ed6b8ccaeab4a71441f94a150689742d48dd1348
