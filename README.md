@@ -64,6 +64,7 @@ The project is fully deployed and accessible online.
 | ![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Structure & Content |
 | ![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Styling & Animations |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-Logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Interactivity & Validation |
+| ![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20DB-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) | Authentication & Message Storage |
 | ![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery-6332F6?style=for-the-badge&logo=swiper&logoColor=white) | Image Gallery Slider |
 | ![Font%20Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white) | Icons |
 
@@ -127,13 +128,14 @@ Pet Adoption & Animal Welfare/
 
 - Form validation
 - Input fields for name, email, number, subject, and message
-- Submit confirmation
+- Data persistence using Firebase Firestore
+- Submit confirmation alert
 
 ### 🔐 Login Form
 
-- Dropdown login form
-- Username and password fields
-- Remember me checkbox
+- Dropdown login, signup, and reset password forms
+- Secure authentication via Firebase Auth
+- Dynamically toggled sections using external CSS classes
 
 ---
 
