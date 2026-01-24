@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pet Adoption & Animal Welfare</title>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https://cdnjs.cloudflare.com https://unpkg.com https://*.firebaseapp.com https://*.googleapis.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com; script-src 'self' 'unsafe-inline' https://unpkg.com https://www.gstatic.com https://*.firebaseapp.com; img-src 'self' data: https://*.googleusercontent.com; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com;">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paw"></i> Pet adoption & animal welfare</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#gallery">gallery</a>
+            <a href="#animal">animal welfare</a>
+            <a href="#pricing">adopt now</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="user-info" class="user-info">
+                <span id="display-name"></span>
+                <div id="logout-btn" class="fas fa-sign-out-alt"></div>
+            </div>
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+
+        <div id="auth-modal" class="login-form">
+            <form id="login-form">
+                <h3 id="form-title">login form</h3>
+                <input type="email" id="login-email" class="box" placeholder="Enter Your Email" required>
+                <input type="password" id="login-password" class="box" placeholder="Enter Your Password" required>
+                <button type="submit" class="btn">Login Now</button>
+                <p><a href="#" id="forgot-password">forgot password?</a></p>
+                <p>don't have an account? <a href="#" id="show-signup">create one</a></p>
+                <p id="auth-error" class="error-msg"></p>
+            </form>
+
+            <form id="signup-form" style="display: none;">
+                <h3>signup form</h3>
+                <input type="text" id="signup-name" class="box" placeholder="Enter Your Name" required>
+                <input type="email" id="signup-email" class="box" placeholder="Enter Your Email" required>
+                <input type="password" id="signup-password" class="box" placeholder="Enter Your Password" required>
+                <input type="password" id="signup-confirm-password" class="box" placeholder="Confirm Your Password"
+                    required>
+                <button type="submit" class="btn">Sign Up Now</button>
+                <p>already have an account? <a href="#" id="show-login">login now</a></p>
+                <p id="signup-error" class="error-msg"></p>
+            </form>
+
+            <form id="reset-form" style="display: none;">
+                <h3>reset password</h3>
+                <input type="email" id="reset-email" class="box" placeholder="Enter Your Email" required>
+                <button type="submit" class="btn">Send Reset Link</button>
+                <p><a href="#" id="back-to-login">back to login</a></p>
+                <p id="reset-msg" class="success-msg"></p>
+            </form>
+        </div>
+
+    </header>
+
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>enjoy the wonderful <br>
+                adventure of the <br> animals & pets</h3>
+            <a href="#" class="btn">Find your new furry friend</a>
+        </div>
+
+        <img src="images/bottom_wave.png" alt="" class="wave">
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h2 class="deco-title">About us</h2>
+
+        <div class="box-container">
+
+            <div class="image">
+                <img src="images/banner_1.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">about us</h3>
+                <p>We are passionate advocates for animal welfare and responsible pet adoption. Our mission is to
+                    connect loving homes with deserving pets, promoting the well-being of animals through education and
+                    awareness. With a commitment to compassion and community, we strive to create a world where every
+                    pet finds a forever home, and every owner is empowered to provide a life of love and care.</p>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!--Im-->
+
+    <section class="banner">
+
+        <div class="row">
+
+            <div class="content">
+                <h2 class="heading">Don’t Buy Dogs, Adopt them</h2>
+                <p>Dogs are the most beautiful creatures in the earth who are loyal, adorable, caring and true friend to
+                    human being. We believe that everyone deserves the better life so they do. We are in a favor of
+                    adopting a dog with out selling or purchasing. We believe there is nothing in this world which can
+                    set the price for them.</p>
+            </div>
+
+            <div class="image">
+                <img src="images/banner_2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end-->
+
+    <!-- gallery -->
+
+    <section class="gallery" id="gallery">
+
+        <h2 class="heading">gallery</h2>
+
+        <div class="swiper gallery-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/gallery-1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/gallery-2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/gallery-3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/gallery-4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/gallery-5.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/gallery-6.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- animals -->
+
+    <section class="animal" id="animal">
+
+        <h2 class="heading">animals welfare</h2>
+
+
+        <p class="animal-para">Join us in promoting compassion and care for animals. Our platform is dedicated to
+            advancing animal welfare through advocacy, education, and support. Explore resources, adopt a furry friend,
+            and contribute to the well-being of animals in need. Together, let's create a world where every creature is
+            treated with love and respect.</p>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/animal_1.jpg" alt="">
+                <div class="content">
+                    <h3>cameleon</h3>
+                    <a href="https://en.wikipedia.org/wiki/Chameleon" target="_blank" rel="noopener" class="btn">see
+                        details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/animals_2.jpg" alt="">
+                <div class="content">
+                    <h3>zebra</h3>
+                    <a href="https://en.wikipedia.org/wiki/Zebra" target="_blank" rel="noopener" class="btn">see
+                        details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/animals_3.jpg" alt="">
+                <div class="content">
+                    <h3>giraffe</h3>
+                    <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank" rel="noopener" class="btn">see
+                        details</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/animals_4.jpg" alt="">
+                <div class="content">
+                    <h3>monkey</h3>
+                    <a href="https://en.wikipedia.org/wiki/Monkey" target="_blank" rel="noopener" class="btn">see
+                        details</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- banner -->
+
+    <section class="banner">
+
+        <div class="row">
+
+            <div class="content">
+                <h3>stay with pets</h3>
+                <p>Explore our curated list of pet-friendly accommodations and services, making your travels enjoyable
+                    for both you and your furry companion. From cozy hotels to retreat resorts, find the perfect stay
+                    for you and your pet. Additionally, discover essential pet services such as sitting and grooming to
+                    ensure a stress-free travel experience. Check out our travel tips for a smooth journey with your
+                    pet, including packing essentials and vet checks.</p>
+            </div>
+
+            <div class="image">
+                <img src="images/banner_1.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- pricing -->
+
+    <section class="pricing auth-required" id="pricing">
+
+        <h2 class="heading">adopt now</h2>
+
+        <p class="animal-para">Ready to welcome a new furry friend into your home? Browse through our adorable pets
+            available for adoption and take the first step towards adding joy to your life. Each adoption creates a
+            loving bond and offers a forever home to a deserving pet. Start your journey with us today and make a
+            difference in a pet's life!</p>
+
+        <div class="box-container">
+
+
+
+            <div class="box">
+                <img src="images/pricing1.png" alt="">
+                <h3></h3>
+                <h4 class="price">Jack</h4>
+                <p>1.5 year old labrador dog for adoption in delhi</p>
+            </div>
+
+            <div class="box">
+                <img src="images/pricing2.png" alt="">
+                <h3></h3>
+                <h4 class="price">Orea</h4>
+                <p> 2 month old Dog for adoption in mumbai</p>
+            </div>
+
+            <div class="box">
+                <img src="images/pricing3.png" alt="">
+                <h3></h3>
+                <h4 class="price">maze</h4>
+                <p>11 month old german shepherd dog for adoption in delhi</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">contact</h2>
+
+        <form id="contactForm">
+            <div class="inputBox">
+                <input type="text" id="name" name="name" required placeholder="name">
+                <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="number" name="number" required placeholder="number">
+                <input type="text" id="subject" name="subject" placeholder="subject" required>
+            </div>
+
+            <textarea id="message" name="message" rows="10" cols="30" required placeholder="message"></textarea>
+
+            <button type="submit" id="contact-submit" class="btn">Send message</button>
+        </form>
+
+
+
+
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fas fa-paw"></i> zoo</h3>
+                <p>We are dedicated to finding loving homes for pets in need. Our mission is to promote animal welfare
+                    and responsible pet ownership.</p>
+                <p class="links"><i class="fas fa-clock"></i>monday - friday</p>
+                <p class="days">7:00AM - 11:00PM</p>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91 89855-52525</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +91 65925-25891</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> info@petlife.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Phagwara,India</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>about</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>gallery</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>animal welfare</a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i>Adopt now</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email" required>
+                <a href="#" id="subscribe-link" class="btn">subscribe</a>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f" aria-label="Facebook"></a>
+                    <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+                    <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+                    <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="credit">&copy; 2026 Pet Adoption Platform & Animal Welfare. All rights reserved by <a href="#"
+                class="link">Pets</a></div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
