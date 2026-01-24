@@ -60,35 +60,35 @@ window.onscroll = () => {
 if (showSignupLink) {
     showSignupLink.onclick = (e) => {
         e.preventDefault();
-        loginForm.style.display = 'none';
-        signupForm.style.display = 'block';
-        resetForm.style.display = 'none';
+        loginForm.classList.add('hidden');
+        signupForm.classList.remove('hidden');
+        resetForm.classList.add('hidden');
     }
 }
 
 if (showLoginLink) {
     showLoginLink.onclick = (e) => {
         e.preventDefault();
-        signupForm.style.display = 'none';
-        resetForm.style.display = 'none';
-        loginForm.style.display = 'block';
+        signupForm.classList.add('hidden');
+        resetForm.classList.add('hidden');
+        loginForm.classList.remove('hidden');
     }
 }
 
 if (forgotPasswordLink) {
     forgotPasswordLink.onclick = (e) => {
         e.preventDefault();
-        loginForm.style.display = 'none';
-        signupForm.style.display = 'none';
-        resetForm.style.display = 'block';
+        loginForm.classList.add('hidden');
+        signupForm.classList.add('hidden');
+        resetForm.classList.remove('hidden');
     }
 }
 
 if (backToLoginLink) {
     backToLoginLink.onclick = (e) => {
         e.preventDefault();
-        resetForm.style.display = 'none';
-        loginForm.style.display = 'block';
+        resetForm.classList.add('hidden');
+        loginForm.classList.remove('hidden');
     }
 }
 
@@ -252,15 +252,15 @@ if (logoutBtn) {
 // Auth State Observer
 auth.onAuthStateChanged((user) => {
     if (user) {
-        if (loginBtn) loginBtn.style.display = 'none';
-        if (userInfo) userInfo.style.display = 'flex';
+        if (loginBtn) loginBtn.classList.add('hidden');
+        if (userInfo) userInfo.style.display = 'flex'; // Keep flex for user info as it's a layout requirement
         if (displayNameSpan) displayNameSpan.textContent = user.displayName || user.email.split('@')[0];
         authRequiredSections.forEach(section => {
-            section.style.display = 'block';
+            section.classList.remove('hidden');
         });
     } else {
-        if (loginBtn) loginBtn.style.display = 'block';
+        if (loginBtn) loginBtn.classList.remove('hidden');
         if (userInfo) userInfo.style.display = 'none';
-        authRequiredSections.forEach(section => section.style.display = 'none');
+        authRequiredSections.forEach(section => section.classList.add('hidden'));
     }
 });
