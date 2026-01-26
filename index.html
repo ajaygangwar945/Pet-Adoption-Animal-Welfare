@@ -334,8 +334,11 @@
 
         <h2 class="heading">contact</h2>
 
-        <form id="contactForm" name="contact" method="POST" data-netlify="true">
+        <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact">
+            <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
             <div class="inputBox">
                 <input type="text" id="name" name="name" required placeholder="name">
                 <input type="email" id="email" name="email" placeholder="email" required>
