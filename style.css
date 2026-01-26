@@ -359,9 +359,34 @@ section {
   object-fit: cover;
 }
 
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+.swiper-button-next::after {
+  content: '\f105';
+}
+
+.swiper-button-prev::after {
+  content: '\f104';
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   color: var(--white);
+  height: 5rem;
+  width: 5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: var(--main);
 }
 
 /* end */
@@ -658,11 +683,11 @@ section {
   }
 
   .header {
-    padding: 2rem;
+    padding: 1.5rem 2rem;
   }
 
   section {
-    padding: 8rem 2rem;
+    padding: 5rem 2rem;
   }
 }
 
@@ -678,7 +703,7 @@ section {
     left: 0;
     right: 0;
     background: var(--white);
-    border-top: .1rem solid var(--main);
+    border-top: .1rem solid rgba(0, 0, 0, .1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
@@ -690,20 +715,78 @@ section {
     display: block;
     margin: 2rem;
     font-size: 2rem;
+    background: var(--bg);
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    color: var(--black);
+  }
+
+  .header .navbar a:hover {
+    background: var(--main);
+    color: var(--white);
+    padding-left: 2rem;
   }
 
   .home {
-    background-position: left;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
   }
 
   .home .content h3 {
-    font-size: 5rem;
+    font-size: 4.5rem;
+  }
+
+  .home .content {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    margin: 0 1rem;
   }
 
   .deco-title {
     display: none;
   }
 
+  .header .login-form {
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(-50%) scale(0);
+    /* Start scaled down and centered */
+    position: fixed;
+    /* Fix to viewport */
+    max-height: 90vh;
+    overflow-y: auto;
+    z-index: 10000;
+    /* Ensure on top */
+    transition: transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 1rem;
+  }
+
+  .header .login-form.active {
+    right: 5%;
+    left: 5%;
+    transform: translateY(-50%) scale(1);
+    transition: transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  /* Add a backdrop when modal is active - Optional but recommended for better UX */
+  .header .login-form.active::before {
+    content: '';
+    position: fixed;
+    top: -100vh;
+    left: -100vw;
+    width: 300vw;
+    height: 300vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    pointer-events: none;
+    /* Let clicks pass through if needed, or handle closing via JS */
+  }
 }
 
 @media (max-width: 450px) {
@@ -712,7 +795,19 @@ section {
   }
 
   .home .content h3 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  .header .logo {
+    font-size: 2rem;
+  }
+
+  .banner .row .image {
+    margin-bottom: 0;
+  }
+
+  .footer .box-container {
+    grid-template-columns: 1fr;
   }
 
 }

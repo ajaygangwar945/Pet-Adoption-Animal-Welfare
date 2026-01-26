@@ -8,6 +8,7 @@
     <title>Online Pet Adoption & Animal Welfare</title>
     <meta http-equiv="Content-Security-Policy"
         content="default-src 'self' https://cdnjs.cloudflare.com https://unpkg.com https://*.firebaseapp.com https://*.googleapis.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com; script-src 'self' 'unsafe-inline' https://unpkg.com https://www.gstatic.com https://*.firebaseapp.com; img-src 'self' data: https://*.googleusercontent.com; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.firebaseapp.com;">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -333,7 +334,8 @@
 
         <h2 class="heading">contact</h2>
 
-        <form id="contactForm">
+        <form id="contactForm" name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
             <div class="inputBox">
                 <input type="text" id="name" name="name" required placeholder="name">
                 <input type="email" id="email" name="email" placeholder="email" required>
