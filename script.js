@@ -201,43 +201,9 @@ if (resetForm) {
 }
 
 // Contact Form Integration
-if (contactForm) {
-    contactForm.onsubmit = async (e) => {
-        e.preventDefault();
+// Contact Form Integration - Handled by Netlify (Standard HTML POST)
+// The previous Firebase/EmailJS logic has been removed to allow Netlify to capture the form submission directly.
 
-        const name = document.querySelector("#name").value.trim();
-        const email = document.querySelector("#email").value.trim();
-        const number = document.querySelector("#number").value.trim();
-        const subject = document.querySelector("#subject").value.trim();
-        const message = document.querySelector("#message").value.trim();
-
-        if (contactSubmit) {
-            contactSubmit.disabled = true;
-            contactSubmit.textContent = "Sending...";
-        }
-
-        try {
-            await db.collection("messages").add({
-                name,
-                email,
-                number,
-                subject,
-                message,
-                timestamp: firebase.firestore.FieldValue.serverTimestamp()
-            });
-
-            contactForm.reset();
-        } catch (error) {
-            console.error("Error saving message:", error);
-            alert("Failed to send message: " + error.message);
-        } finally {
-            if (contactSubmit) {
-                contactSubmit.disabled = false;
-                contactSubmit.textContent = "Send message";
-            }
-        }
-    };
-}
 
 if (logoutBtn) {
     logoutBtn.onclick = async () => {
