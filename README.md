@@ -1,5 +1,7 @@
 <img src="images/Gemini_Generated_Image_ob052hob052hob05.png" width="100%" height="300px" align="center">  
 
+<p align="center"> 🐾 Pet Adoption & Animal Welfare</p>
+
 <div align="center">
 
 ![Pet Adoption](https://img.shields.io/badge/Pet-Adoption-ff4b2b?style=for-the-badge&logo=heart&logoColor=white)
