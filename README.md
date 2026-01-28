@@ -1,9 +1,9 @@
-# 🐾 Pet Adoption & Animal Welfare
+<img src="images/Gemini_Generated_Image_ob052hob052hob05.png" width="100%" height="300px" align="center">  
 
 <div align="center">
 
-![Pet Adoption](https://img.shields.io/badge/Pet-Adoption-blue?style=for-the-badge&logo=heart&logoColor=white)
-![Animal Welfare](https://img.shields.io/badge/Animal-Welfare-green?style=for-the-badge&logo=leaf&logoColor=white)
+![Pet Adoption](https://img.shields.io/badge/Pet-Adoption-ff4b2b?style=for-the-badge&logo=heart&logoColor=white)
+![Animal Welfare](https://img.shields.io/badge/Animal-Welfare-2eb82e?style=for-the-badge&logo=leaf&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -37,7 +37,7 @@ Welcome to the **Pet Adoption & Animal Welfare** platform! This website is desig
 ## 🚀 Live Website
 
 The project is fully deployed and accessible online.  
-[![Live](https://img.shields.io/badge/Live-Visit%20Site-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)
+[![Live](https://img.shields.io/badge/Live-Visit%20Site-brightgreen?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)
 
 ---
 
@@ -201,32 +201,18 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author
-
-**Ajay Gangwar**
-
-**GitHub:**  
-[![GitHub Profile](https://img.shields.io/badge/GitHub-@ajaygangwar945-black?style=for-the-badge&logo=github)](https://github.com/ajaygangwar945)  
-*View my GitHub profile and projects.*
-
-**Live Website:**  
-[![Live Website](https://img.shields.io/badge/Live-Visit%20Website-success?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)  
-*Check out the deployed project.*
-
----
-
 ## 🙏 Acknowledgments
 
-- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-blue?style=flat-square&logo=fontawesome&logoColor=white)](https://fontawesome.com/)  
+- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)  
   *Used for icons across the website.*
 
-- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=flat-square&logo=swiper&logoColor=white)](https://swiperjs.com/)  
+- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=for-the-badge&logo=swiper&logoColor=white)](https://swiperjs.com/)  
   *Used for the interactive image gallery slider.*
 
-- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-green?style=flat-square&logo=googlefonts&logoColor=white)](https://fonts.google.com/)  
+- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/)  
   *Used for clean and modern typography.*
 
-- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://www.netlify.com/)  
+- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)  
   *Used for free hosting and deployment.*
 
 ---
