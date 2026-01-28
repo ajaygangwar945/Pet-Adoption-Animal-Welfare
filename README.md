@@ -12,8 +12,6 @@
 
 ### 🌐 **[Live Demo](https://pet-adoption-animal-welfare.netlify.app/)** 🌐
 
-[![Netlify Status](https://img.shields.io/netlify/ea492774-0947-439e-a5d5-23999367cfd0?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
-
 *A beautiful and responsive website dedicated to promoting pet adoption and animal welfare awareness.*
 
 </div>
@@ -79,16 +77,21 @@ Pet Adoption & Animal Welfare/
 ├── index.html          # Main HTML file
 ├── style.css           # Stylesheet
 ├── script.js           # JavaScript functionality
+├── favicon.svg         # Website Favicon
 ├── .gitignore          # Git ignore file
+├── LICENSE             # License file
 ├── README.md           # Project documentation
 │
 └── images/             # Image assets
-    ├── home.jpg
-    ├── about.png
-    ├── gallery-*.jpg
-    ├── animals_*.jpg
-    ├── pricing*.png
-    └── ...
+    ├── Gemini_Generated_Image_... .png # Main Banner
+    ├── home.jpg, home.png              # Home section images
+    ├── about.png                       # About section image
+    ├── banner.png, banner_1.png...     # Section banners
+    ├── bottom_wave.png                 # Decorative wave
+    ├── gallery-*.jpg                   # Gallery images
+    ├── animals_*.jpg                   # Animal welfare images
+    ├── contact.png                     # Contact section image
+    └── footer.jpg                      # Footer background
 ```
 
 ---
@@ -119,18 +122,12 @@ Pet Adoption & Animal Welfare/
 - Hover effects with overlay
 - "See details" buttons for each animal
 
-### 🏆 Adopt Now
-
-- Available pets showcase
-- Pet information cards
-- Unique card styling with border-radius animations
-
 ### 📬 Contact Form
 
-- Form validation
-- Input fields for name, email, number, subject, and message
-- Data persistence using Firebase Firestore
-- Submit confirmation alert
+- Form validation for user inputs
+- Integrated with **Netlify Forms** for effortless message handling
+- Automatic email notifications for new submissions
+- Secure anti-spam protection (honeypot field)
 
 ### 🔐 Login Form
 
@@ -170,6 +167,8 @@ Pet Adoption & Animal Welfare/
 ## 🌐 Deployment
 
 This project is deployed on **Netlify** for free hosting with continuous deployment.
+
+[![Netlify Status](https://img.shields.io/netlify/ea492774-0947-439e-a5d5-23999367cfd0?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
 
 ---
 
