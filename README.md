@@ -1,6 +1,6 @@
 <img src="images/Gemini_Generated_Image_ob052hob052hob05.png" width="100%" height="300px" align="center">  
 
-<p align="center" style="font-size: 100px; font-weight: bold;"> 🐾 Pet Adoption & Animal Welfare</p>
+# 🐾 Pet Adoption & Animal Welfare
 
 <div align="center">
 
