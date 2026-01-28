@@ -12,7 +12,7 @@
 
 ### 🌐 **[Live Demo](https://pet-adoption-animal-welfare.netlify.app/)** 🌐
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ea492774-0947-439e-a5d5-23999367cfd0/deploy-status)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
+[![Netlify Status](https://img.shields.io/netlify/ea492774-0947-439e-a5d5-23999367cfd0?style=for-the-badge&logo=netlify&logoColor=white)](https://app.netlify.com/projects/pet-adoption-animal-welfare/deploys)
 
 *A beautiful and responsive website dedicated to promoting pet adoption and animal welfare awareness.*
 
@@ -30,7 +30,6 @@ Welcome to the **Pet Adoption & Animal Welfare** platform! This website is desig
 - 📚 **About Us** - Mission and vision for animal welfare
 - 🖼️ **Gallery** - Beautiful image slider showcasing animals
 - 🦁 **Animal Welfare** - Information about various animals
-- 🐕 **Adopt Now** - Available pets for adoption
 - 📞 **Contact Form** - Easy communication with validation
 - 📱 **Fully Responsive** - Works on all devices
 
@@ -200,22 +199,6 @@ Contributions are welcome! Feel free to:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🙏 Acknowledgments
-
-- [![Font Awesome](https://img.shields.io/badge/Font%20Awesome-Icons-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)  
-  *Used for icons across the website.*
-
-- [![Swiper.js](https://img.shields.io/badge/Swiper.js-Gallery%20Slider-6332F6?style=for-the-badge&logo=swiper&logoColor=white)](https://swiperjs.com/)  
-  *Used for the interactive image gallery slider.*
-
-- [![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Roboto-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white)](https://fonts.google.com/)  
-  *Used for clean and modern typography.*
-
-- [![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)  
-  *Used for free hosting and deployment.*
 
 ---
 
