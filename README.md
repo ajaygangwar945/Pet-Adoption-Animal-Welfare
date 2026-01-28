@@ -1,11 +1,11 @@
 <img src="images/Gemini_Generated_Image_ob052hob052hob05.png" width="100%" height="300px" align="center">  
 
-# <p align="center">🐾 Pet Adoption & Animal Welfare</p>
+<h1 align="center">🐾 Pet Adoption & Animal Welfare</h1>
 
 <div align="center">
 
-![Pet Adoption](https://img.shields.io/badge/Pet-Adoption-ff4b2b?style=for-the-badge&logo=heart&logoColor=white)
-![Animal Welfare](https://img.shields.io/badge/Animal-Welfare-2eb82e?style=for-the-badge&logo=leaf&logoColor=white)
+![Pet Adoption](https://img.shields.io/badge/Pet-Adoption-FF4500?style=for-the-badge&logo=heart&logoColor=white)
+![Animal Welfare](https://img.shields.io/badge/Animal-Welfare-32CD32?style=for-the-badge&logo=leaf&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
