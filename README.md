@@ -1,4 +1,4 @@
-<img src="images/Gemini_Generated_Image_ob052hob052hob05.png" width="100%" height="300px" align="center">  
+<img src="images/Gemini_Generated_Image_ob052hob052hob05.png" width="100%" height="200" style="object-fit: cover" align="center">  
 
 <h1 align="center">🐾 Pet Adoption & Animal Welfare</h1>
 
@@ -36,6 +36,7 @@ Welcome to the **Pet Adoption & Animal Welfare** platform! This website is desig
 ## 🚀 Live Website
 
 The project is fully deployed and accessible online.  
+
 [![Live](https://img.shields.io/badge/Live-Visit%20Site-brightgreen?style=for-the-badge)](https://pet-adoption-animal-welfare.netlify.app/)
 
 ---
