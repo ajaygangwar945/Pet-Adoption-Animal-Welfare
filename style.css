@@ -62,6 +62,7 @@ section {
   border-radius: 5rem;
   padding: 0.9rem 3rem;
   margin-top: 1rem;
+  cursor: pointer;
   z-index: 0;
   position: relative;
   overflow: hidden;
@@ -119,6 +120,11 @@ section {
   color: var(--main);
 }
 
+.header .icons {
+  display: flex;
+  align-items: center;
+}
+
 .header .icons div {
   font-size: 2.5rem;
   margin-left: 1.7rem;
@@ -139,7 +145,7 @@ section {
   background: rgba(255, 255, 255, 0.7);
   padding: 0.5rem 1.5rem;
   border-radius: 5rem;
-  margin-left: 1.7rem;
+  margin-left: 1rem;
 }
 
 .header .icons .user-info span {
@@ -642,8 +648,12 @@ section {
     padding: 1.5rem 2rem;
   }
 
-  section {
-    padding: 5rem 2rem;
+  .gallery .slide .image {
+    height: 20rem;
+  }
+
+  .animal .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }
 
@@ -696,6 +706,7 @@ section {
   .home .content {
     padding: 2rem;
     background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border-radius: 1rem;
     margin: 0 1rem;
@@ -750,11 +761,18 @@ section {
     font-size: 50%;
   }
 
-  .home .content h3 {
-    font-size: 3rem;
+  .header .logo {
+    font-size: 1.8rem;
   }
 
-  .header .logo {
+  .header .icons .user-info {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+  }
+
+  .header .icons div {
+    margin-left: 1rem;
     font-size: 2rem;
   }
 
