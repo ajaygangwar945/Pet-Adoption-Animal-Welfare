@@ -77,11 +77,13 @@ Pet Adoption & Animal Welfare/
 │
 ├── index.html          # Main HTML file
 ├── style.css           # Stylesheet
-├── script.js           # JavaScript functionality
+├── script.js           # Main application logic
+├── firebase-config.template.js # Template for Firebase credentials
 ├── favicon.svg         # Website Favicon
 ├── .gitignore          # Git ignore file
 ├── LICENSE             # License file
 ├── README.md           # Project documentation
+├── FIREBASE_SETUP.md   # Firebase setup instructions
 │
 └── images/             # Image assets
     ├── Gemini_Generated_Image_... .png # Main Banner
@@ -159,7 +161,12 @@ Pet Adoption & Animal Welfare/
    cd Pet-Adoption-Animal-Welfare
    ```
 
-3. **Open in browser**
+3. **Set up Firebase Credentials**
+   - Copy `firebase-config.template.js` to `firebase-config.js`.
+   - Add your Firebase configuration values to `firebase-config.js`.
+   - For detailed instructions, see [FIREBASE_SETUP.md](FIREBASE_SETUP.md).
+
+4. **Open in browser**
    - Simply open `index.html` in your web browser
    - Or use a local server like Live Server (VS Code extension)
 
