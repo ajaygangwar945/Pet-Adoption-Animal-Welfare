@@ -1,13 +1,4 @@
-// Firebase Configuration
-const firebaseConfig = {
-    apiKey: "SCRUBBED_API_KEY",
-    authDomain: "pet-adoption-animal-welfare.firebaseapp.com",
-    projectId: "pet-adoption-animal-welfare",
-    storageBucket: "pet-adoption-animal-welfare.firebasestorage.app",
-    messagingSenderId: "SCRUBBED_SENDER_ID",
-    appId: "SCRUBBED_APP_ID"
-};
-
+// Firebase Configuration is loaded from firebase-config.js (not committed to git)
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
