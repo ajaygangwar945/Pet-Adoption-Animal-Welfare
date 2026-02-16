@@ -83,7 +83,6 @@ Pet Adoption & Animal Welfare/
 ├── .gitignore          # Git ignore file
 ├── LICENSE             # License file
 ├── README.md           # Project documentation
-├── FIREBASE_SETUP.md   # Firebase setup instructions
 │
 └── images/             # Image assets
     ├── Gemini_Generated_Image_... .png # Main Banner
@@ -162,9 +161,31 @@ Pet Adoption & Animal Welfare/
    ```
 
 3. **Set up Firebase Credentials**
-   - Copy `firebase-config.template.js` to `firebase-config.js`.
-   - Add your Firebase configuration values to `firebase-config.js`.
-   - For detailed instructions, see [FIREBASE_SETUP.md](FIREBASE_SETUP.md).
+
+   This project uses Firebase for authentication and data storage. The Firebase configuration is **not included** in this repository for security reasons.
+
+   - **Copy the template file:**
+
+     ```powershell
+     cp firebase-config.template.js firebase-config.js
+     ```
+
+   - **Get your Firebase credentials at [Firebase Console](https://console.firebase.google.com/)** (Gear icon ⚙️ → Project settings → Your apps).
+   - **Update `firebase-config.js`** with your actual credentials:
+
+     ```javascript
+     const firebaseConfig = {
+         apiKey: "YOUR_ACTUAL_API_KEY",
+         authDomain: "your-project.firebaseapp.com",
+         projectId: "your-project-id",
+         storageBucket: "your-project.firebasestorage.app",
+         messagingSenderId: "123456789",
+         appId: "1:123456789:web:abcdef123456"
+     };
+     ```
+
+   > [!IMPORTANT]
+   > **Never commit `firebase-config.js`**. It is already in `.gitignore` to prevent accidental commits. Do not share your credentials publicly.
 
 4. **Open in browser**
    - Simply open `index.html` in your web browser
@@ -206,8 +227,6 @@ Contributions are welcome! Feel free to:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
 
 <div align="center">
 
