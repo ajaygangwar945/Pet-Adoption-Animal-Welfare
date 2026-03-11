@@ -83,6 +83,7 @@ Pet Adoption & Animal Welfare/
 ├── .gitignore          # Git ignore file
 ├── LICENSE             # License file
 ├── README.md           # Project documentation
+├── Project_Report.txt  # Detailed project report (Logic, Flow, Backend)
 │
 └── images/             # Image assets
     ├── Gemini_Generated_Image_... .png # Main Banner
@@ -128,13 +129,14 @@ Pet Adoption & Animal Welfare/
 
 - Form validation for user inputs
 - Integrated with **Netlify Forms** for effortless message handling
-- Automatic email notifications for new submissions
+- Automatic email notifications for new submissions (via Netlify)
 - Secure anti-spam protection (honeypot field)
 
 ### 🔐 Login Form
 
 - Dropdown login, signup, and reset password forms
-- Secure authentication via Firebase Auth
+- Secure authentication via **Firebase Auth**
+- Real-time UI updates based on authentication state
 - Dynamically toggled sections using external CSS classes
 
 ---
@@ -227,6 +229,8 @@ Contributions are welcome! Feel free to:
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
 
 <div align="center">
 
